@@ -1,0 +1,26 @@
+{
+    "name": "controle_estoque_backend",
+    "version": "1.0.0",
+    "description": "API para o sistema de controle de estoque - Projeto Integrador",
+    "main": "src/index.js",
+
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "node --watch src/server.js"
+    },
+"keywords": [
+  "estoque",
+  "api",
+  "express",
+  "mysql"
+],
+"author": "Equipe do Projeto Integrador",
+"license": "MIT",
+"dependencies": {
+  "bcryptjs": "^2.4.3",
+  "cors": "^2.8.5",
+  "dotenv": "^16.3.1",
+  "express": "^4.18.2",
+  "jsonwebtoken": "^9.0.2",
+  "mysql2": "^3.6.0"
+}}
